@@ -1,0 +1,34 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #efefef
+}
+.circle{
+    width: 110px;
+    height: 110px;
+    position: relative;
+    margin: 50px auto;
+    border-radius: 100%;
+    text-align:center;
+    background-image:linear-gradient(90deg, transparent 50%, #d0d0d0 50%),linear-gradient(90deg, #d0d0d0 50%, transparent 50%);
+}
+.circle div{
+     width: 100px;
+     height: 100px;
+     position: absolute;
+     z-index: 99;
+     top:5px;
+     left: 5px;
+     background-color: white;
+     border-radius: 50%;
+ }
+.circle span {
+    line-height: 100px;
+    font-size: 20px;
+    color: #999;
+}
+

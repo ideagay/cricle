@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>环形进度条</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="loopTip.js"></script>
+</head>
+<body>
+    <div class="circle obj1">
+        <div>
+            <span></span>
+        </div>
+    </div>
+    <div class="circle obj2">
+        <div>
+            <span></span>
+        </div>
+    </div>
+    <script>
+            $(".obj1").loopTip({
+                color:'#d1d0d0',
+                mainColor:'#f78515',
+                percent:75
+            })
+            $(".obj2").loopTip({
+                color:'#d1d0d0',
+                mainColor:'#f78515',
+                percent:40
+            })
+    </script>
+</body>
+</html>
